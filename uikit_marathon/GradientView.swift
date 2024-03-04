@@ -30,6 +30,7 @@ class GradientView: UIView {
     
     private func setupGradientLayer() {
         gradientLayer.colors = [UIColor.green.cgColor, UIColor.purple.cgColor]
+        
         gradientLayer.startPoint = CGPoint(x: 0, y: 0)
         gradientLayer.endPoint = CGPoint(x: 1, y: 1)
         layer.addSublayer(gradientLayer)
